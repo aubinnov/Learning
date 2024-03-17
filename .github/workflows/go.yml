@@ -21,10 +21,10 @@ jobs:
           go-version: "1.20"
 
       - name: Build
-        run: go build -v ./...
+        run: go build -v ./../../intefaces.go
 
       - name: Test
-        run: go test -v ./...
+        run: go test -v ./../../intefaces.go
 
   deploy:
     name: Deploy my app

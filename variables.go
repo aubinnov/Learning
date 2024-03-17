@@ -42,6 +42,6 @@ func doSomething(s string) (string, string) {
 
 func changeUsingPointer(s *string) {
 	log.Println("s is set to", *s)
-	newValue := "Red"
+	newValue := "Blue"
 	*s = newValue
 }
